@@ -22,6 +22,6 @@
 
 ## Как запустить проект локально
 
-1. Скачайте проект:
-   ```bash
-   https://Blech06-boop.github.io/comp-store/
+1. Посмотреть проект:
+   🔗 GitHub Pages:  
+https://Blech06-boop.github.io/comp-store/
