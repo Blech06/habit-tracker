@@ -1,0 +1,166 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 24px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 24px;
+      color: #1e293b;
+      font-weight: 600;
+      font-size: 28px;
+    }
+    .add-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .add-section input {
+      flex: 2;
+      min-width: 150px;
+      padding: 12px 16px;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 16px;
+      outline: none;
+      transition: border 0.2s;
+    }
+    .add-section input:focus {
+      border-color: #3b82f6;
+    }
+    .add-section button {
+      flex: 1;
+      min-width: 100px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .add-section button:hover {
+      background: #2563eb;
+    }
+    .habit-card {
+      background: #f8fafc;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 12px;
+      border: 1px solid #e2e8f0;
+      transition: box-shadow 0.2s;
+    }
+    .habit-card:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .habit-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .habit-name {
+      font-weight: 600;
+      font-size: 18px;
+      color: #0f172a;
+    }
+    .habit-streak {
+      background: #fef3c7;
+      color: #92400e;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .week-row {
+      display: flex;
+      gap: 8px;
+      margin: 12px 0;
+      flex-wrap: wrap;
+    }
+    .day-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid #cbd5e1;
+      background: white;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .day-btn.completed {
+      background: #3b82f6;
+      border-color: #3b82f6;
+      color: white;
+    }
+    .progress-container {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .progress-bar {
+      flex: 1;
+      height: 10px;
+      background: #e2e8f0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: #3b82f6;
+      width: 0%;
+      transition: width 0.3s;
+    }
+    .progress-text {
+      font-size: 13px;
+      color: #475569;
+      white-space: nowrap;
+    }
+    .delete-btn {
+      background: transparent;
+      border: none;
+      color: #ef4444;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+    .empty-state {
+      text-align: center;
+      color: #94a3b8;
+      margin-top: 40px;
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 16px;
+      }
+      .add-section {
+        flex-direction: column;
+      }
+    }
