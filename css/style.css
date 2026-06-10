@@ -157,19 +157,19 @@
       margin-top: 40px;
     }
       .footer {
+        width: 100%;
         margin-top: 60px;
-        padding: 35px 0 25px;
-        background-color: #f8fafc;
+        padding: 40px 20px 30px;
+        background-color: #f1f5f9;
         border-top: 1px solid #e2e8f0;
         text-align: center;
         color: #64748b;
         font-size: 14px;
-        width: 100%;
       }
       
       .footer-content p {
         margin: 6px 0;
-        line-height: 1.4;
+        line-height: 1.5;
       }
       
       .footer strong {
