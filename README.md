@@ -4,6 +4,8 @@
 
 ![alt text](image.png)
 
+🔗 GitHub Pages:  
+https://saiddavletmurzaev91-boop.github.io/comp-store/
 ## Возможности
 
 - Добавление новых привычек
