@@ -24,4 +24,4 @@
 
 1. Скачайте проект:
    ```bash
-   git clone https://github.com/Blech06/habit-tracker.git
+   https://Blech06-boop.github.io/comp-store/
