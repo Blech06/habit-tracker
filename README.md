@@ -24,4 +24,4 @@
 
 1. Скачайте проект:
    ```bash
-   git clone https://github.com/твой-логин/habit-tracker.git
+   git clone https://github.com/Blech06/habit-tracker.git
