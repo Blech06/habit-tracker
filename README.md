@@ -5,7 +5,7 @@
 ![alt text](image.png)
 
 🔗 GitHub Pages:  
-https://saiddavletmurzaev91-boop.github.io/comp-store/
+https://Blech06.github.io/habit-tracker
 ## Возможности
 
 - Добавление новых привычек
