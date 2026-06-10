@@ -158,16 +158,18 @@
     }
       .footer {
         margin-top: 60px;
-        padding: 40px 0 25px;
-        background: #f1f5f9;
+        padding: 35px 0 25px;
+        background-color: #f8fafc;
         border-top: 1px solid #e2e8f0;
         text-align: center;
         color: #64748b;
         font-size: 14px;
+        width: 100%;
       }
       
       .footer-content p {
-        margin: 8px 0;
+        margin: 6px 0;
+        line-height: 1.4;
       }
       
       .footer strong {
